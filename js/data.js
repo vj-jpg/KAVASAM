@@ -1,5 +1,9 @@
 /**
+<<<<<<< HEAD
  * KAVASAM • Next-Gen Disaster Intelligence Dataset (SIH26191)
+=======
+ * KAVASAM â€¢ Next-Gen Disaster Intelligence Dataset (SIH26191)
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
  * Multi-Portal Dataset: Authority | Citizen | Volunteer
  */
 
@@ -8,7 +12,11 @@ const KAVASAM_DATA = {
     systemName: "KAVASAM",
     tagline: "Intelligent Disaster Response & Community Coordination Platform",
     problemStatement: "SIH26191: Intelligent Identification of Hazard-Based Red Zones, Carrying Capacity Assessment, and Immediate Relocation Needs",
+<<<<<<< HEAD
     scenario: "Chennai District • Urban Flood Scenario",
+=======
+    scenario: "Chennai District â€¢ Urban Flood Scenario",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
     baseTime: "14:35 IST",
     simulatedDate: "September 8, 2026",
     centerCoords: [12.9850, 80.2180],
@@ -19,12 +27,20 @@ const KAVASAM_DATA = {
   zones: [
     {
       id: "C-04",
+<<<<<<< HEAD
       name: "Zone C-04 • Velachery Lake Basin",
+=======
+      name: "Zone C-04 â€¢ Velachery Lake Basin",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       ward: "Ward 177, Greater Chennai Corp",
       locality: "Velachery / AGS Colony / Ram Nagar",
       riskLevel: "CRITICAL",
       riskScore: 89,
+<<<<<<< HEAD
       statusLabel: "RED HAZARD ZONE • EVACUATE",
+=======
+      statusLabel: "RED HAZARD ZONE â€¢ EVACUATE",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       population: 4280,
       vulnerableCount: 1840,
       hazardIntensity: 82,
@@ -49,12 +65,20 @@ const KAVASAM_DATA = {
     },
     {
       id: "B-12",
+<<<<<<< HEAD
       name: "Zone B-12 • Saidapet Adyar River Bank",
+=======
+      name: "Zone B-12 â€¢ Saidapet Adyar River Bank",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       ward: "Ward 142, Greater Chennai Corp",
       locality: "Saidapet / Maraimalai Adigal Basin",
       riskLevel: "HIGH",
       riskScore: 76,
+<<<<<<< HEAD
       statusLabel: "HIGH RISK • RELOCATION STAGE 2",
+=======
+      statusLabel: "HIGH RISK â€¢ RELOCATION STAGE 2",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       population: 2130,
       vulnerableCount: 920,
       hazardIntensity: 74,
@@ -79,12 +103,20 @@ const KAVASAM_DATA = {
     },
     {
       id: "A-08",
+<<<<<<< HEAD
       name: "Zone A-08 • Madipakkam Lake Shore",
+=======
+      name: "Zone A-08 â€¢ Madipakkam Lake Shore",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       ward: "Ward 188, Greater Chennai Corp",
       locality: "Madipakkam / Puzhuthivakkam",
       riskLevel: "HIGH",
       riskScore: 71,
+<<<<<<< HEAD
       statusLabel: "HIGH RISK • CAUTION",
+=======
+      statusLabel: "HIGH RISK â€¢ CAUTION",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       population: 1740,
       vulnerableCount: 650,
       hazardIntensity: 68,
@@ -109,12 +141,20 @@ const KAVASAM_DATA = {
     },
     {
       id: "D-02",
+<<<<<<< HEAD
       name: "Zone D-02 • Perumbakkam Fringe",
+=======
+      name: "Zone D-02 â€¢ Perumbakkam Fringe",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       ward: "Tambaram Taluk / St. Thomas Mount",
       locality: "Perumbakkam Tenements",
       riskLevel: "MODERATE",
       riskScore: 58,
+<<<<<<< HEAD
       statusLabel: "MODERATE • MONITORING",
+=======
+      statusLabel: "MODERATE â€¢ MONITORING",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       population: 2860,
       vulnerableCount: 1120,
       hazardIntensity: 56,
@@ -139,12 +179,20 @@ const KAVASAM_DATA = {
     },
     {
       id: "N-01",
+<<<<<<< HEAD
       name: "Zone N-01 • Vyasarpadi Basin",
+=======
+      name: "Zone N-01 â€¢ Vyasarpadi Basin",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       ward: "Ward 35, North Chennai Corp",
       locality: "Vyasarpadi / Kalyanapuram",
       riskLevel: "HIGH",
       riskScore: 78,
+<<<<<<< HEAD
       statusLabel: "HIGH RISK • NORTH CHENNAI",
+=======
+      statusLabel: "HIGH RISK â€¢ NORTH CHENNAI",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       population: 3450,
       vulnerableCount: 1480,
       hazardIntensity: 76,
@@ -173,7 +221,11 @@ const KAVASAM_DATA = {
   shelters: [
     {
       id: "S-07",
+<<<<<<< HEAD
       name: "Shelter S-07 • Velachery Higher Secondary School",
+=======
+      name: "Shelter S-07 â€¢ Velachery Higher Secondary School",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       type: "Primary Government Relief Center",
       locality: "Gandhi Salai, Velachery",
       distanceFromFocus: "0.9 km (11 min walk)",
@@ -188,7 +240,11 @@ const KAVASAM_DATA = {
     },
     {
       id: "S-03",
+<<<<<<< HEAD
       name: "Shelter S-03 • Guindy Multi-Purpose Relief Center",
+=======
+      name: "Shelter S-03 â€¢ Guindy Multi-Purpose Relief Center",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       type: "High-Capacity Regional Cyclone Center",
       locality: "Race Course Road, Guindy",
       distanceFromFocus: "3.2 km (8 min bus)",
@@ -203,7 +259,11 @@ const KAVASAM_DATA = {
     },
     {
       id: "S-11",
+<<<<<<< HEAD
       name: "Shelter S-11 • Tambaram Indoor Sports Complex",
+=======
+      name: "Shelter S-11 â€¢ Tambaram Indoor Sports Complex",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       type: "Mega Relief Facility",
       locality: "GST Road, Tambaram Sanatorium",
       distanceFromFocus: "6.8 km (18 min bus)",
@@ -218,7 +278,11 @@ const KAVASAM_DATA = {
     },
     {
       id: "S-01",
+<<<<<<< HEAD
       name: "Shelter S-01 • Ripon Civil Defense Hub",
+=======
+      name: "Shelter S-01 â€¢ Ripon Civil Defense Hub",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       type: "North Chennai Relief Center",
       locality: "Periamet / Chennai Central",
       distanceFromFocus: "11.4 km",
@@ -238,7 +302,11 @@ const KAVASAM_DATA = {
     {
       id: "TSK-01",
       title: "Check Water Level Gauge at Lake Weir Gate 3",
+<<<<<<< HEAD
       zone: "Zone C-04 • Velachery",
+=======
+      zone: "Zone C-04 â€¢ Velachery",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       urgency: "HIGH",
       points: 150,
       category: "Sensor & Gauge",
@@ -248,7 +316,11 @@ const KAVASAM_DATA = {
     {
       id: "TSK-02",
       title: "Verify Wheelchair Ramps & Ingress at Shelter S-07",
+<<<<<<< HEAD
       zone: "Zone C-04 • Velachery",
+=======
+      zone: "Zone C-04 â€¢ Velachery",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       urgency: "CRITICAL",
       points: 200,
       category: "Shelter Support",
@@ -259,7 +331,11 @@ const KAVASAM_DATA = {
     {
       id: "TSK-03",
       title: "Assist Elderly Couple on Ground Floor - Gandhi Nagar 3rd St",
+<<<<<<< HEAD
       zone: "Zone C-04 • Velachery",
+=======
+      zone: "Zone C-04 â€¢ Velachery",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       urgency: "IMMEDIATE",
       points: 300,
       category: "Rescue Assist",
@@ -374,6 +450,7 @@ const KAVASAM_DATA = {
       safeCensusText: "residents safely registered in your sector"
     },
     ta: {
+<<<<<<< HEAD
       appName: "கவசம் (KAVASAM)",
       tagline: "பேரிடர் நுண்ணறிவு மற்றும் சமூகப் பாதுகாப்பு தளம்",
       heroTitle: "சென்னைக்கான அவசர பேரிடர் நுண்ணறிவு தளம்",
@@ -388,6 +465,22 @@ const KAVASAM_DATA = {
       reportHazard: "வெள்ளம் பாதித்த சாலையை பதிவு செய்க",
       imSafe: "நான் பாதுகாப்பாக உள்ளேன்",
       safeCensusText: "மக்கள் பாதுகாப்பாக பதிவு செய்துள்ளனர்"
+=======
+      appName: "à®•à®µà®šà®®à¯ (KAVASAM)",
+      tagline: "à®ªà¯‡à®°à®¿à®Ÿà®°à¯ à®¨à¯à®£à¯à®£à®±à®¿à®µà¯ à®®à®±à¯à®±à¯à®®à¯ à®šà®®à¯‚à®•à®ªà¯ à®ªà®¾à®¤à¯à®•à®¾à®ªà¯à®ªà¯ à®¤à®³à®®à¯",
+      heroTitle: "à®šà¯†à®©à¯à®©à¯ˆà®•à¯à®•à®¾à®© à®…à®µà®šà®° à®ªà¯‡à®°à®¿à®Ÿà®°à¯ à®¨à¯à®£à¯à®£à®±à®¿à®µà¯ à®¤à®³à®®à¯",
+      heroDesc: "à®ªà¯‡à®°à®¿à®Ÿà®°à¯ à®®à¯‡à®²à®¾à®£à¯à®®à¯ˆ à®…à®¤à®¿à®•à®¾à®°à®¿à®•à®³à¯, à®¤à®©à¯à®©à®¾à®°à¯à®µà®²à®°à¯à®•à®³à¯ à®®à®±à¯à®±à¯à®®à¯ à®ªà¯Šà®¤à¯à®®à®•à¯à®•à®³à¯ˆ à®‡à®£à¯ˆà®•à¯à®•à¯à®®à¯ à®’à®°à¯à®™à¯à®•à®¿à®£à¯ˆà®¨à¯à®¤ à®ªà®¾à®¤à¯à®•à®¾à®ªà¯à®ªà¯ à®…à®®à¯ˆà®ªà¯à®ªà¯.",
+      portalGov: "à®…à®°à®šà¯ à®®à®±à¯à®±à¯à®®à¯ à®ªà¯‡à®°à®¿à®Ÿà®°à¯ à®®à¯‡à®²à®¾à®£à¯à®®à¯ˆ",
+      portalCitizen: "à®ªà¯Šà®¤à¯à®®à®•à¯à®•à®³à¯ à®ªà®¾à®¤à¯à®•à®¾à®ªà¯à®ªà¯",
+      portalVol: "à®¤à®©à¯à®©à®¾à®°à¯à®µà®²à®°à¯ à®¤à®³à®®à¯",
+      amIRedZone: "à®¨à¯€à®™à¯à®•à®³à¯ à®µà¯†à®³à¯à®³ à®…à®ªà®¾à®¯ à®®à®£à¯à®Ÿà®²à®¤à¯à®¤à®¿à®²à¯ à®‰à®³à¯à®³à¯€à®°à¯à®•à®³à®¾?",
+      checkZoneDesc: "à®‰à®™à¯à®•à®³à¯ à®¤à¯†à®°à¯ à®…à®²à¯à®²à®¤à¯ à®ªà®•à¯à®¤à®¿à®¯à®¿à®©à¯ à®¤à®±à¯à®ªà¯‹à®¤à¯ˆà®¯ à®µà¯†à®³à¯à®³ à®…à®ªà®¾à®¯ à®¨à®¿à®²à¯ˆà®¯à¯ˆ à®šà®°à®¿à®ªà®¾à®°à¯à®•à¯à®•à®µà¯à®®à¯.",
+      findShelter: "à®…à®°à¯à®•à®¿à®²à¯à®³à¯à®³ à®¨à®¿à®µà®¾à®°à®£ à®®à¯à®•à®¾à®®à¯ˆ à®•à®£à¯à®Ÿà®±à®¿à®•",
+      reqSos: "à®…à®µà®šà®° à®®à¯€à®Ÿà¯à®ªà¯ à®‰à®¤à®µà®¿ à®•à¯‹à®°à¯à®• (SOS)",
+      reportHazard: "à®µà¯†à®³à¯à®³à®®à¯ à®ªà®¾à®¤à®¿à®¤à¯à®¤ à®šà®¾à®²à¯ˆà®¯à¯ˆ à®ªà®¤à®¿à®µà¯ à®šà¯†à®¯à¯à®•",
+      imSafe: "à®¨à®¾à®©à¯ à®ªà®¾à®¤à¯à®•à®¾à®ªà¯à®ªà®¾à®• à®‰à®³à¯à®³à¯‡à®©à¯",
+      safeCensusText: "à®®à®•à¯à®•à®³à¯ à®ªà®¾à®¤à¯à®•à®¾à®ªà¯à®ªà®¾à®• à®ªà®¤à®¿à®µà¯ à®šà¯†à®¯à¯à®¤à¯à®³à¯à®³à®©à®°à¯"
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
     }
   }
 };

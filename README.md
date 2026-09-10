@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # KAVASAM • Intelligent Disaster Response & Geospatial Decision Platform
+=======
+# KAVASAM â€¢ Intelligent Disaster Response & Geospatial Decision Platform
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
 
 > **Smart India Hackathon 2026 Problem Statement SIH26191**  
 > *Intelligent Identification of Hazard-Based Red Zones, Carrying Capacity Assessment, and Immediate Relocation Needs for Vulnerable Habitations.*
@@ -67,7 +71,11 @@ $$\text{DETECT} \longrightarrow \text{ANALYZE} \longrightarrow \text{PRIORITIZE}
 
 ## 3. 10% Innovation Upgrades (SIH Grand Finale Features)
 
+<<<<<<< HEAD
 1. **Bilingual Localization (Tamil / English)**: Instant toggle for citizen emergency advisories in தமிழ் (Tamil) and English for Tamil Nadu field operations.
+=======
+1. **Bilingual Localization (Tamil / English)**: Instant toggle for citizen emergency advisories in à®¤à®®à®¿à®´à¯ (Tamil) and English for Tamil Nadu field operations.
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
 2. **Tactile Web Audio Synthesizer**: Subdued mission-control telemetry clicks, radar sweeps, and critical alert tones using native HTML5 Web Audio API (zero external files).
 3. **Automated District Magistrate SITREP Generator**: One-click generation of a formatted operational Situation Report ready to print or copy to clipboard for disaster management authorities.
 4. **Interactive Road Obstruction Injector**: Click directly on any evacuation corridor on the map to simulate waterlogging and trigger dynamic AI route recalculation.

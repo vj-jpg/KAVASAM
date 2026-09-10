@@ -1,5 +1,9 @@
 /**
+<<<<<<< HEAD
  * KAVASAM • Unified Reactive State Engine & Multi-Portal Core
+=======
+ * KAVASAM â€¢ Unified Reactive State Engine & Multi-Portal Core
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
  * Portals: 'authority' | 'citizen' | 'volunteer'
  */
 
@@ -119,7 +123,11 @@ class KavasamState {
     this.citizenCheckedZone = match || {
       name: query + " (Area Verified)",
       riskLevel: "LOW",
+<<<<<<< HEAD
       statusLabel: "GREEN ZONE • NO IMMEDIATE INUNDATION",
+=======
+      statusLabel: "GREEN ZONE â€¢ NO IMMEDIATE INUNDATION",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       recommendedAction: "Stay tuned to GCC official alerts."
     };
     if (window.kavasamAudio) window.kavasamAudio.playTacticalChime(640, 0.08);

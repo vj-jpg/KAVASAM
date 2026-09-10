@@ -1,5 +1,9 @@
 /**
+<<<<<<< HEAD
  * KAVASAM • Master Controller & Multi-Portal Application Coordinator
+=======
+ * KAVASAM â€¢ Master Controller & Multi-Portal Application Coordinator
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
  * Portals: Government Authority | Citizen Safety | Volunteer Grid
  */
 
@@ -338,7 +342,11 @@ class KavasamApp {
 
           <div class="p-4 rounded-xl bg-cyan-950/40 border border-cyan-500/40 text-slate-200 mt-4">
             <div class="text-cyan-400 font-bold mb-1.5 flex items-center gap-2">
+<<<<<<< HEAD
               <span>🛡️</span>
+=======
+              <span>ðŸ›¡ï¸</span>
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
               <span>EXPLAINABLE AI RECOMMENDATION (CONFIDENCE 87%)</span>
             </div>
             <p class="text-xs font-sans leading-relaxed">
@@ -368,7 +376,11 @@ class KavasamApp {
           </div>
           <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
             <span>Primary Destination: <strong class="text-slate-200">${z.primaryShelterId}</strong></span>
+<<<<<<< HEAD
             <button class="text-cyan-400 hover:underline font-mono font-bold" onclick="selectAnalysisZone('${z.id}'); setAuthoritySubView('analysis');">Inspect Factor Breakdown →</button>
+=======
+            <button class="text-cyan-400 hover:underline font-mono font-bold" onclick="selectAnalysisZone('${z.id}'); setAuthoritySubView('analysis');">Inspect Factor Breakdown â†’</button>
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
           </div>
         </div>
       `).join('');
@@ -456,15 +468,25 @@ class KavasamApp {
               <span class="font-bold text-sm text-white">${s.name}</span>
               <span class="badge-pill badge-normal text-[10px]">${s.available} BEDS FREE</span>
             </div>
+<<<<<<< HEAD
             <div class="text-xs text-cyan-400 font-mono mb-2.5">📍 ${s.locality} • ${s.distanceFromFocus}</div>
             <div class="space-y-1.5 text-xs text-slate-300 mb-4">
               ${s.amenities.map(a => `<div class="flex items-center gap-2"><span class="text-emerald-400">✓</span> ${a}</div>`).join('')}
+=======
+            <div class="text-xs text-cyan-400 font-mono mb-2.5">ðŸ“ ${s.locality} â€¢ ${s.distanceFromFocus}</div>
+            <div class="space-y-1.5 text-xs text-slate-300 mb-4">
+              ${s.amenities.map(a => `<div class="flex items-center gap-2"><span class="text-emerald-400">âœ“</span> ${a}</div>`).join('')}
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
             </div>
           </div>
           <div class="pt-3.5 border-t border-slate-800 flex items-center justify-between">
             <span class="text-xs text-slate-400 font-mono">Contact: ${s.contact}</span>
             <button class="px-3.5 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 font-mono text-xs font-bold text-white shadow-md" onclick="alert('Displaying safe flood-free walking navigation to ${s.name}.')">
+<<<<<<< HEAD
               SAFE ROUTE →
+=======
+              SAFE ROUTE â†’
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
             </button>
           </div>
         </div>
@@ -486,7 +508,11 @@ class KavasamApp {
           <div class="flex justify-between items-start">
             <div>
               <span class="font-bold text-xs text-white">${t.title}</span>
+<<<<<<< HEAD
               <div class="text-[11px] text-purple-300 font-mono">📍 ${t.zone}</div>
+=======
+              <div class="text-[11px] text-purple-300 font-mono">ðŸ“ ${t.zone}</div>
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
             </div>
             <span class="badge-pill ${t.status === 'CLAIMED' ? 'badge-normal' : 'badge-critical'} text-[9px]">${t.status}</span>
           </div>
@@ -498,7 +524,11 @@ class KavasamApp {
                 CLAIM TASK
               </button>
             ` : `
+<<<<<<< HEAD
               <span class="text-emerald-400 text-xs">✓ Claimed by ${t.claimedBy}</span>
+=======
+              <span class="text-emerald-400 text-xs">âœ“ Claimed by ${t.claimedBy}</span>
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
             `}
           </div>
         </div>
@@ -513,7 +543,11 @@ class KavasamApp {
             <span class="font-bold text-xs text-white">${r.type}</span>
             <span class="badge-pill ${r.status === 'CORROBORATED' ? 'badge-cyan' : 'badge-high'} text-[9px]">${r.status}</span>
           </div>
+<<<<<<< HEAD
           <div class="text-xs font-mono text-slate-300">📍 ${r.location}</div>
+=======
+          <div class="text-xs font-mono text-slate-300">ðŸ“ ${r.location}</div>
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
           <p class="text-xs text-slate-400 italic">"${r.details}"</p>
           <div class="flex items-center justify-between pt-2.5 border-t border-slate-800 font-mono text-[11px]">
             <span class="text-slate-400">Reported: ${r.timeAgo}</span>
@@ -521,7 +555,11 @@ class KavasamApp {
               <span class="text-cyan-400 font-bold">Conf: ${r.confidence}%</span>
               ${r.status === 'ANALYZING' ? `
                 <button class="px-2.5 py-1 rounded bg-emerald-600 hover:bg-emerald-500 text-white text-[11px] font-bold" onclick="corroborateReport('${r.id}')">
+<<<<<<< HEAD
                   CORROBORATE ✓
+=======
+                  CORROBORATE âœ“
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
                 </button>
               ` : ''}
             </div>
@@ -540,10 +578,17 @@ class KavasamApp {
     const t = new Date().toLocaleTimeString('en-IN');
     return `
 ================================================================================
+<<<<<<< HEAD
 KAVASAM DISASTER INTELLIGENCE PLATFORM • OPERATIONAL SITREP (SIH26191)
 GREATER CHENNAI CORPORATION • DISTRICT DISASTER MANAGEMENT AUTHORITY (DDMA)
 ================================================================================
 TIMESTAMP: ${d} • ${t} IST
+=======
+KAVASAM DISASTER INTELLIGENCE PLATFORM â€¢ OPERATIONAL SITREP (SIH26191)
+GREATER CHENNAI CORPORATION â€¢ DISTRICT DISASTER MANAGEMENT AUTHORITY (DDMA)
+================================================================================
+TIMESTAMP: ${d} â€¢ ${t} IST
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
 SCENARIO: CHENNAI DISTRICT URBAN FLOOD EMERGENCE (RAPID ESCALATION)
 CLASSIFICATION: RESTRICTED // OPERATIONAL DISPATCH SUMMARY
 --------------------------------------------------------------------------------
@@ -574,7 +619,11 @@ CLASSIFICATION: RESTRICTED // OPERATIONAL DISPATCH SUMMARY
    * Stage 6 extra MTC reserve buses at Guindy depot in anticipation of secondary squall.
 
 ================================================================================
+<<<<<<< HEAD
 KAVASAM INTELLIGENCE ENGINE • AUTONOMOUS VERIFICATION COMPLETE • CONFIDENCE 87%
+=======
+KAVASAM INTELLIGENCE ENGINE â€¢ AUTONOMOUS VERIFICATION COMPLETE â€¢ CONFIDENCE 87%
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
 ================================================================================
     `.trim();
   }
@@ -609,18 +658,30 @@ function toggleSimPlayback() {
 
   if (state.isPlaying) {
     state.pauseSimulation();
+<<<<<<< HEAD
     icon.textContent = '▶';
     text.textContent = 'RESUME SIMULATION';
   } else {
     state.startSimulation();
     icon.textContent = '⏸';
+=======
+    icon.textContent = 'â–¶';
+    text.textContent = 'RESUME SIMULATION';
+  } else {
+    state.startSimulation();
+    icon.textContent = 'â¸';
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
     text.textContent = 'PAUSE SIMULATION';
   }
 }
 
 function resetSimPlayback() {
   window.kavasamState.resetSimulation();
+<<<<<<< HEAD
   document.getElementById('sim-run-icon').textContent = '▶';
+=======
+  document.getElementById('sim-run-icon').textContent = 'â–¶';
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
   document.getElementById('sim-run-text').textContent = 'RUN SIMULATION';
 }
 
@@ -661,17 +722,29 @@ function simulateWaAction(type) {
   if (type === 'loc') {
     chatBox.innerHTML += `
       <div class="wa-msg-out p-2.5 max-w-[85%] self-end shadow text-xs">
+<<<<<<< HEAD
         📍 <em>Shared live location: 12.9780° N, 80.2185° E (Velachery AGS Colony)</em>
+=======
+        ðŸ“ <em>Shared live location: 12.9780Â° N, 80.2185Â° E (Velachery AGS Colony)</em>
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       </div>
     `;
     setTimeout(() => {
       chatBox.innerHTML += `
         <div class="wa-msg-in p-2.5 max-w-[85%] self-start shadow text-xs">
+<<<<<<< HEAD
           <strong class="text-red-400 block">⚠️ RED HAZARD ZONE ALERT (C-04)</strong>
           Your street has 1.2m flood runoff converging. Recommended safe shelter:<br>
           🏢 <strong>Shelter S-07 (Velachery Higher Secondary)</strong><br>
           📍 Distance: 0.9 km via Taramani Link Road.<br>
           🚌 12 MTC buses stationed at junction.
+=======
+          <strong class="text-red-400 block">âš ï¸ RED HAZARD ZONE ALERT (C-04)</strong>
+          Your street has 1.2m flood runoff converging. Recommended safe shelter:<br>
+          ðŸ¢ <strong>Shelter S-07 (Velachery Higher Secondary)</strong><br>
+          ðŸ“ Distance: 0.9 km via Taramani Link Road.<br>
+          ðŸšŒ 12 MTC buses stationed at junction.
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
         </div>
       `;
       chatBox.scrollTop = chatBox.scrollHeight;
@@ -680,15 +753,24 @@ function simulateWaAction(type) {
   } else if (type === 'shelter') {
     chatBox.innerHTML += `
       <div class="wa-msg-out p-2.5 max-w-[85%] self-end shadow text-xs">
+<<<<<<< HEAD
         🏥 Find Nearest Shelter
+=======
+        ðŸ¥ Find Nearest Shelter
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       </div>
     `;
     setTimeout(() => {
       chatBox.innerHTML += `
         <div class="wa-msg-in p-2.5 max-w-[85%] self-start shadow text-xs">
           <strong>Closest Available Relief Centers:</strong><br>
+<<<<<<< HEAD
           1. 🏫 <strong>Shelter S-07</strong> (0.9 km) - 680 Beds Free • Food & Medical Ready<br>
           2. 🏢 <strong>Shelter S-03 Guindy</strong> (3.2 km) - 1,900 Beds Free
+=======
+          1. ðŸ« <strong>Shelter S-07</strong> (0.9 km) - 680 Beds Free â€¢ Food & Medical Ready<br>
+          2. ðŸ¢ <strong>Shelter S-03 Guindy</strong> (3.2 km) - 1,900 Beds Free
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
         </div>
       `;
       chatBox.scrollTop = chatBox.scrollHeight;
@@ -696,13 +778,21 @@ function simulateWaAction(type) {
   } else if (type === 'sos') {
     chatBox.innerHTML += `
       <div class="wa-msg-out p-2.5 max-w-[85%] self-end shadow text-xs bg-red-900 text-white">
+<<<<<<< HEAD
         🚨 Emergency SOS Requested: Bedridden family member on ground floor.
+=======
+        ðŸš¨ Emergency SOS Requested: Bedridden family member on ground floor.
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       </div>
     `;
     setTimeout(() => {
       chatBox.innerHTML += `
         <div class="wa-msg-in p-2.5 max-w-[85%] self-start shadow text-xs border border-red-500/50">
+<<<<<<< HEAD
           <strong class="text-red-400">DISPATCH CONFIRMED ✓</strong><br>
+=======
+          <strong class="text-red-400">DISPATCH CONFIRMED âœ“</strong><br>
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
           Incident Logged: <strong>REP-102 (SOS-PRIORITY)</strong><br>
           Ambulance Unit A-02 & SDRF Rescue Boat 3 dispatched to your GPS. Keep phone battery on low power mode.
         </div>
@@ -755,7 +845,11 @@ function confirmCitizenSos() {
   closeCitizenSosModal();
   window.kavasamState.addCitizenReport({
     type: "Person Requiring Assistance",
+<<<<<<< HEAD
     location: "Zone C-04 • Velachery (User GPS)",
+=======
+    location: "Zone C-04 â€¢ Velachery (User GPS)",
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
     coords: [12.9775, 80.2170],
     reportedBy: "Citizen Direct SOS",
     details: "Immediate rescue vehicle / medical evacuation requested."
@@ -824,7 +918,11 @@ function copySitrep() {
   if (textEl) {
     navigator.clipboard.writeText(textEl.textContent);
     const btn = document.getElementById('copy-sitrep-btn');
+<<<<<<< HEAD
     btn.textContent = 'COPIED TO CLIPBOARD ✓';
+=======
+    btn.textContent = 'COPIED TO CLIPBOARD âœ“';
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
     setTimeout(() => { btn.textContent = 'COPY SITREP'; }, 2000);
   }
 }
@@ -834,7 +932,11 @@ function toggleLanguage() {
   const newLang = window.kavasamState.currentLanguage === 'en' ? 'ta' : 'en';
   window.kavasamState.setLanguage(newLang);
   const btn = document.getElementById('global-lang-btn');
+<<<<<<< HEAD
   btn.textContent = newLang === 'en' ? 'தமிழ்' : 'English';
+=======
+  btn.textContent = newLang === 'en' ? 'à®¤à®®à®¿à®´à¯' : 'English';
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
 
   const t = window.KAVASAM_DATA.i18n[newLang];
   if (t) {
@@ -854,7 +956,11 @@ function toggleLanguage() {
 function toggleAudio() {
   const enabled = window.kavasamAudio.toggleSound();
   const icon = document.getElementById('audio-icon');
+<<<<<<< HEAD
   if (icon) icon.textContent = enabled ? '🔊' : '🔇';
+=======
+  if (icon) icon.textContent = enabled ? 'ðŸ”Š' : 'ðŸ”‡';
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
 }
 
 // On DOM Ready

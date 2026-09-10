@@ -2,7 +2,11 @@
 # Powered by Windows PowerShell System.Net.HttpListener
 
 $port = 8080
+<<<<<<< HEAD
 $url = "http://+:$port/"
+=======
+$url = "http://localhost:$port/"
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
 $folder = $PSScriptRoot
 
 Write-Host "==========================================================" -ForegroundColor Cyan
@@ -13,6 +17,7 @@ Write-Host "Live URL:  $url" -ForegroundColor Yellow
 
 $listener = New-Object System.Net.HttpListener
 $listener.Prefixes.Add($url)
+<<<<<<< HEAD
 try {
     $listener.Start()
     Write-Host "Listener started successfully" -ForegroundColor Green
@@ -20,6 +25,9 @@ try {
     Write-Host "Failed to start listener: $_" -ForegroundColor Red
     exit 1
 }
+=======
+$listener.Start()
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
 
 $mimeTypes = @{
     ".html" = "text/html"

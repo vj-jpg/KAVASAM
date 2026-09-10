@@ -1,5 +1,9 @@
 /**
+<<<<<<< HEAD
  * KAVASAM • Chennai Geospatial Intelligence Map Engine (OpenStreetMap Open Source)
+=======
+ * KAVASAM â€¢ Chennai Geospatial Intelligence Map Engine (OpenStreetMap Open Source)
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
  * Completely Free Open-Source OSM Tiles (Zero API Key) + IoT Bridge Sensors + Dynamic Bypass Routing
  */
 
@@ -144,7 +148,11 @@ class KavasamMap {
           </div>
           <div style="font-size: 11px; color: #67e8f9; margin-bottom: 8px;">Action: ${zone.recommendedAction}</div>
           <button style="width: 100%; background: #0891b2; color:#fff; border:none; border-radius:6px; padding:6px; font-weight:700; cursor:pointer;" onclick="selectAnalysisZone('${zone.id}'); setAuthoritySubView('analysis');">
+<<<<<<< HEAD
             Inspect Factor Decomposition →
+=======
+            Inspect Factor Decomposition â†’
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
           </button>
         </div>
       `;
@@ -210,7 +218,11 @@ class KavasamMap {
             <span>Occupied: <strong>${shelter.occupied}</strong></span>
             <span>Carrying Capacity: <strong>${cap}</strong></span>
           </div>
+<<<<<<< HEAD
           <div style="font-size: 10px; color: #10b981; margin-top: 4px;">🏥 Medical Teams: ${shelter.medicalTeams} • Meals: ${shelter.foodSupplyDays} Days</div>
+=======
+          <div style="font-size: 10px; color: #10b981; margin-top: 4px;">ðŸ¥ Medical Teams: ${shelter.medicalTeams} â€¢ Meals: ${shelter.foodSupplyDays} Days</div>
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
         </div>
       `;
 
@@ -241,7 +253,11 @@ class KavasamMap {
         });
         blockedLine.bindPopup(`
           <div style="font-family: var(--font-display); font-size: 12px;">
+<<<<<<< HEAD
             <strong style="color:#ef4444;">⚠️ ROAD INUNDATED & BLOCKED</strong><br>
+=======
+            <strong style="color:#ef4444;">âš ï¸ ROAD INUNDATED & BLOCKED</strong><br>
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
             <span>Water level over 1.2m on ${route.name}.</span><br>
             <button style="margin-top:6px; background:#10b981; color:#fff; border:none; border-radius:4px; padding:4px 8px; cursor:pointer;" onclick="window.kavasamState.toggleRouteBlock('${route.id}')">
               Clear Water & Reopen Corridor
@@ -265,7 +281,11 @@ class KavasamMap {
         });
         bypassLine.bindPopup(`
           <div style="font-family: var(--font-display); font-size: 12px;">
+<<<<<<< HEAD
             <strong style="color:#10b981;">✓ AI DYNAMIC BYPASS ROUTE ACTIVE</strong><br>
+=======
+            <strong style="color:#10b981;">âœ“ AI DYNAMIC BYPASS ROUTE ACTIVE</strong><br>
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
             <span>Rerouting buses via High-Ground Taramani Link.</span>
           </div>
         `);
@@ -285,11 +305,19 @@ class KavasamMap {
 
         line.bindPopup(`
           <div style="font-family: var(--font-display); font-size: 12px;">
+<<<<<<< HEAD
             <strong style="color:#10b981;">✓ ${route.name}</strong><br>
             <span>Distance: ${route.distanceKm} km • Est: ${route.estimatedMinutes} min</span><br>
             <span style="font-size:11px; color:#cbd5e1;">Click button to simulate sudden road inundation:</span><br>
             <button style="margin-top:6px; background:#ef4444; color:#fff; border:none; border-radius:4px; padding:4px 8px; cursor:pointer;" onclick="window.kavasamState.toggleRouteBlock('${route.id}')">
               ⚠️ Simulate Road Inundation / Block
+=======
+            <strong style="color:#10b981;">âœ“ ${route.name}</strong><br>
+            <span>Distance: ${route.distanceKm} km â€¢ Est: ${route.estimatedMinutes} min</span><br>
+            <span style="font-size:11px; color:#cbd5e1;">Click button to simulate sudden road inundation:</span><br>
+            <button style="margin-top:6px; background:#ef4444; color:#fff; border:none; border-radius:4px; padding:4px 8px; cursor:pointer;" onclick="window.kavasamState.toggleRouteBlock('${route.id}')">
+              âš ï¸ Simulate Road Inundation / Block
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
             </button>
           </div>
         `);
@@ -314,7 +342,11 @@ class KavasamMap {
       const isDanger = s.level >= s.threshold;
       const iconHtml = `
         <div style="background: #020617; border: 2px solid ${isDanger ? '#ef4444' : '#10b981'}; border-radius: 50%; width: 26px; height: 26px; display:flex; align-items:center; justify-content:center; color:#fff; font-size:11px; box-shadow: 0 0 12px ${isDanger ? 'rgba(239,68,68,0.7)' : 'rgba(16,185,129,0.5)'};">
+<<<<<<< HEAD
           🌊
+=======
+          ðŸŒŠ
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
         </div>
       `;
 
@@ -329,13 +361,21 @@ class KavasamMap {
       marker.bindPopup(`
         <div style="font-family: var(--font-mono); font-size: 11px;">
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+<<<<<<< HEAD
             <strong style="color:#fff;">${s.id} • IoT TELEMETRY</strong>
+=======
+            <strong style="color:#fff;">${s.id} â€¢ IoT TELEMETRY</strong>
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
             <span class="badge-pill ${isDanger ? 'badge-critical' : 'badge-normal'}">${s.status}</span>
           </div>
           <div style="color:#94a3b8; margin-bottom:4px;">${s.name}</div>
           <div style="color:#67e8f9; font-weight:700;">Water Level: ${s.level}m (Threshold: ${s.threshold}m)</div>
           <div style="color:#cbd5e1;">Discharge: ${s.flow}</div>
+<<<<<<< HEAD
           <div style="color:#64748b; font-size:10px; margin-top:4px;">Solar Battery: 94% • MQTT Link: ACTIVE</div>
+=======
+          <div style="color:#64748b; font-size:10px; margin-top:4px;">Solar Battery: 94% â€¢ MQTT Link: ACTIVE</div>
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
         </div>
       `);
       marker.addTo(this.layers.sensors);
@@ -357,7 +397,11 @@ class KavasamMap {
 
       const iconHtml = `
         <div class="marker-pin" style="width: 22px; height: 22px; background: ${color}; border: 1.5px solid #ffffff; font-size: 10px;">
+<<<<<<< HEAD
           ${r.type.includes('Assistance') ? 'SOS' : '⚠️'}
+=======
+          ${r.type.includes('Assistance') ? 'SOS' : 'âš ï¸'}
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
         </div>
       `;
 
@@ -412,7 +456,11 @@ class KavasamMap {
     `;
     fallback.innerHTML = `
       <div style="background: rgba(15, 23, 42, 0.9); border: 1px solid rgba(6, 182, 212, 0.4); border-radius: 6px; padding: 6px 12px; font-family: var(--font-mono); font-size: 11px; color: #cbd5e1; width: fit-content;">
+<<<<<<< HEAD
         CHENNAI GEOSPATIAL VECTOR GRID • OPEN SOURCE ACTIVE
+=======
+        CHENNAI GEOSPATIAL VECTOR GRID â€¢ OPEN SOURCE ACTIVE
+>>>>>>> c78bfb7d19784781171190902ae0cefce75c3727
       </div>
     `;
     container.appendChild(fallback);
